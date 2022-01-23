@@ -1,0 +1,10 @@
+.error-input-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row !important;
+
+    .alert-icon, .alert-text {
+        color: #f53737;
+    }
+}

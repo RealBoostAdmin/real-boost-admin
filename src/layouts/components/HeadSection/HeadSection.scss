@@ -1,0 +1,19 @@
+.head-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2F2F2F;
+    color: #fff;
+    padding: 0 1em;
+    margin: 1em 0;
+
+    .head-section-button {
+        color: #2F2F2F;
+        background-color: #fff;
+        &:hover {
+            background-color: #fff !important;
+            opacity: 0.9;
+            transition: 0.2s ease-in-out;
+        }
+    }
+}

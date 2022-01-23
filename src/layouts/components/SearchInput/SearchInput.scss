@@ -1,0 +1,17 @@
+.search-block {
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row !important;
+    -webkit-flex-direction: row !important;
+
+    .refresh{
+        cursor: pointer;
+        &:hover {
+            opacity: 0.8
+        }
+    }
+
+}
+

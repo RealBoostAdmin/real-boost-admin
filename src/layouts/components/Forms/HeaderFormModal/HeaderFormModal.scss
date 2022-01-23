@@ -1,0 +1,12 @@
+.title-form-modal {
+    display: inline-block;
+}
+
+.icon-close-form-modal {
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.8;
+    }
+}

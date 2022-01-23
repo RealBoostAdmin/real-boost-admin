@@ -1,0 +1,46 @@
+.box-authenticated {
+    float: left;
+    display: block;
+    width: 75%;
+    margin-bottom: 1rem;
+}
+
+.box-not-authenticated {
+    float: right;
+    display:block;
+    width: 75%;
+    margin-bottom: 1rem;
+}
+
+.box-header {
+    background-color: rgba(0,0,0,.03);
+    padding: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 5px 5px 0 0;
+    clear: both;
+}
+
+.box-content-authenticated p {
+    background-color: #f9f9f9;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 1rem;
+    margin: 0;
+}
+
+.box-content-not-authenticated p {
+    background-color: #25383C;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 1rem;
+    margin: 0;
+}
+
+.box-created {
+    color: #6c757d;
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    display: block;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    font-size:12px;
+}
